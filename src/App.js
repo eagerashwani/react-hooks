@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import MyUseState from './Hooks/MyUseState';
+import MyUseEffect from './Hooks/MyUseEffect';
 
 function App() {
   return (
-    <MyUseState/>
+    <MyUseEffect/>
   );
 }
 
