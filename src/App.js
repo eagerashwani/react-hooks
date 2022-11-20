@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import MyUseEffect from './Hooks/MyUseEffect';
-import MyUseRef from './Hooks/MyUseRef';
+import MyContextAPI from './Hooks/MyContextAPI';
 
 function App() {
   return (
-    <MyUseRef/>
+    <MyContextAPI />
+
   );
 }
 
