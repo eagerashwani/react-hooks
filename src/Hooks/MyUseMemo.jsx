@@ -13,7 +13,8 @@ const MyUseMemo = () => {
   );
   return (
     <>
-      {memoMultiply},<button onClick={() => setAdd(add + 1)}>Add</button>
+      {memoMultiply} <br />
+      <button onClick={() => setAdd(add + 1)}>Add</button>
       <span>{add}</span>
       <br />
       <button onClick={() => setMinus(minus - 1)}>Sub</button>
