@@ -2,7 +2,7 @@ import React, { useReducer } from "react"
 
 const initialState = 0;
 
-function reducer(state, action){
+const reducer = (state, action)=>{
     switch(action){
         case "Increment":
             return state+1

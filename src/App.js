@@ -1,11 +1,13 @@
 
 import './App.css';
-import Form from './Hooks/MyUseReducer';
+// import MyUseReducer from './Hooks/MyUseReducer';
+import MyUseCustomCount from './MyCustomHook/MyUseCustomCount';
 
 function App() {
   return (
     <>
-      <Form/>
+      {/* <MyUseReducer/> */}
+      <MyUseCustomCount />
     </>
 
   );
