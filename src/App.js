@@ -1,12 +1,12 @@
 
 import './App.css';
-import MyContextAPI from './Hooks/MyContextAPI';
-import MyUseContext from './Hooks/MyUseContext';
-import MyUseMemo from './Hooks/MyUseMemo';
+import Form from './Hooks/MyUseReducer';
 
 function App() {
   return (
-      <MyUseMemo/>
+    <>
+      <Form/>
+    </>
 
   );
 }
